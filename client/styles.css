@@ -1,0 +1,41 @@
+.main {
+    width: 70%;
+    margin: 50px auto 0;
+    min-width: 700px;
+}
+
+.single-main {
+    width: 40%;
+    margin: 50px auto 0;
+    min-width: 400px;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+.row:first-child {
+    border-top: 1px solid;
+}
+
+.column:last-child {
+    cursor: pointer;
+}
+
+.column {
+    border-right: 1px solid;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
