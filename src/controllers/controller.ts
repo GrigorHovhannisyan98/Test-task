@@ -5,7 +5,7 @@ import {apiErrors} from "../middlewares/errors"
 import path from "path";
 
 export class Controller {
-    senthtmlPage(req: Request, res: Response, next: NextFunction){
+    sendhtmlPage(req: Request, res: Response, next: NextFunction){
         res.send(path.resolve("/client/index.html"))
     }
     async accounts(req: Request, res: Response, next: NextFunction) {
