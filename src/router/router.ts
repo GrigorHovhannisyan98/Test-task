@@ -5,7 +5,7 @@ const router:Router=express.Router()
 
 
 const controller = new Controller
-router.get('/',controller.senthtmlPage)
+router.get('/',controller.sendhtmlPage)
  router.get('/accounts',controller.accounts)
  router.get('/accounts/:id',controller.accountbyId);
  router.post('/createAccount',validBody(),controller.createAccount);
